@@ -1,0 +1,102 @@
+
+	.widget.widget_listify_search_listings p.home-widget-description {
+		align-items: left !important;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	
+	.widget.widget_listify_search_listings .job_search_form, .widget_listify_search_listings .job_search_form {
+		max-width: 100% !important;
+		margin: auto !important;
+	}
+	
+	.widget.widget_listify_search_listings .search_jobs{
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-content: center;
+		align-items: stretch;
+		justify-content: center;
+	}
+	
+	.widget.widget_listify_search_listings .search_jobs div.search_keywords, .widget.widget_listify_search_listings .search_jobs div.search_location,
+	.widget.widget_listify_search_listings .search_jobs div.search_categories {
+		margin: 10px 0px;
+	}
+	
+	.widget_listify_search_listings .filter-by-type-label {
+		display: block;
+	}
+	
+	.widget_listify_search_listings .job_types li label {
+		position: relative;
+	}
+	
+	.widget_listify_search_listings .job_types li label input {
+		position: absolute;
+		top: 2px;
+		left: 90px;
+		max-width: 25px;
+	}
+	
+	.widget_listify_search_listings .job_types li {
+		width: 100%;
+	}
+	
+	.widget_listify_search_listings .job_search_form {
+				max-width: 100%;
+		}
+	
+	@media only screen and (max-width:1199px) {
+		.widget_listify_search_listings .job_search_form {
+				max-width: 100%;
+		}
+		.widget_listify_search_listings .filter-by-type-label {
+				 margin-top:30px;
+		}
+	}
+	
+	@media only screen and (max-width:991px) {
+		body .widget_listify_search_listings {
+				padding: 32px 15px !important;
+		}
+		body .widget_listify_search_listings .filter-by-type-label {
+				 margin-top:30px;
+		}
+	}
+
+	.widget_listify_search_listings  .job_types, .widget_listify_search_listings .astoundify-listing-labels-cloud {
+		  display: flex;
+	    flex-wrap: wrap;
+	}
+	.widget_listify_search_listings .job_types li {
+		    width: 45% !important;
+	}
+	.widget_listify_search_listings .job_types li label input {
+	    position: absolute !important;
+	    top: 2px !important;
+	    left: 0px !important;
+	    max-width: initial !important; 
+	    width: 20px !important;
+	    height: 21px !important;
+	    max-width: initial !important;
+	}
+	.widget_listify_search_listings .job_types li label {
+	    position: relative;
+	    padding-left: 30px !important;
+	}
+
+	.widget_listify_search_listings a.tag-cloud-link {
+		width: 100% !important;
+    	position: relative;
+	}
+	
+	.job_search_form input, .job_search_form select {
+	    min-width: auto !important;
+	}
+
+	.widget_listify_class_radius .search-radius-wrapper{display: none!important;}
+
+	.widget_listify_class_types form ul, .widget_listify_class_types form .filter-by-type-label {display: none!important;}
+
+	.widget_listify_search_listings .widget_listify_class_label  .astoundify-listing-labels{display: none !important;}
+	.widget-area .map-widget-sections a.tooltip {background: #2854a1;display:inline-block;	width:17px;height:17px;text-align:center;color:#fff !important;border-radius:50%;	line-height: 17px;margin-left: 5px;}
